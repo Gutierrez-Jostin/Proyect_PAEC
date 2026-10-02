@@ -1,0 +1,104 @@
+/* ============================================================
+   ESTILOS GENERALES (aplican a index.html y adopciones.html)
+   ============================================================ */
+
+/* Estilo del encabezado (header) - común a ambas páginas */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff8a5c;
+    padding: 10px 20px;
+}
+
+/* Estilo del cuerpo (body) - común a ambas páginas */
+body {
+    background-color: #ff8a5c;
+}
+
+/* Estilo para controlar el tamaño fijo del logotipo pequeño
+   (aunque no se usa actualmente en el HTML, se mantiene por compatibilidad) */
+.logo-pequeno {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+/* Estilo para que la imagen de la cabecera sea responsiva y no se desborde
+   - Usado en index.html y adopciones.html para el logo y la imagen del aside */
+.logo-cabecera {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Estilo de la barra de navegación - común a ambas páginas */
+.barra-navegacion {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Estilo de los botones de navegación - común a ambas páginas */
+.boton-nav {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 6px 12px;
+    border-radius: 4px;
+    border-color: #000000;
+    font-size: 14px;
+    font-family: sans-serif;
+    transition: background-color 0.3s;
+}
+
+/* Estilo hover de los botones de navegación - común a ambas páginas */
+.boton-nav:hover {
+    background-color: rgb(8, 178, 245);
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo del botón de navegación activo - común a ambas páginas
+   (en index.html se aplica a "Inicio", en adopciones.html a "Adopciones") */
+.boton-nav.activo {
+    background-color: rgb(8, 178, 245);
+    color: #000000;
+    font-weight: bold;
+    border-color: #000000;
+}
+
+/* Estilo del contenedor principal (main) - común a ambas páginas */
+main {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo de la barra lateral (aside) - común a ambas páginas */
+aside {
+    width: 25%;
+    color: #ffffff;
+    background-color: #c75123;
+    padding: 15px;
+}
+
+/* Estilo de la sección principal (section) - común a ambas páginas */
+section {
+    width: 75%;
+    background-color: #c75123;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Estilo de las imágenes - común a ambas páginas */
+img {
+    border-color: #813822;
+}
+
+/* Estilo de las tablas - común a ambas páginas */
+table {
+    margin: 0 auto;
+    width: 50%;
+    border-color: #ffffff;
+}
