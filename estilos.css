@@ -93,13 +93,17 @@ section {
 
 /* Estilo de las imágenes - común a ambas páginas */
 img {
-    border-color: #813822;
+    border-color: #000000;
 }
 
 /* Estilo de las tablas - común a ambas páginas */
 table {
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
+    table-layout: fixed;      /* 👈 clave: respeta los anchos que definas */
+    border-collapse: separate;
+    border-spacing: 0 12px;
+
     border-color: #ffffff;
 }
 
@@ -126,7 +130,7 @@ table {
     border-radius: 12px;
     font-size: .75rem;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: .5px;
 }
 
@@ -136,7 +140,8 @@ table {
 /* ===== Botón deshabilitado ===== */
 .btn-whatsapp.deshabilitado,
 .btn-whatsapp:disabled {
-    background: #9e9e9e;
+    background: #a8a1a1;
+    color:#000000;
     cursor: not-allowed;
     opacity: .7;
 }
