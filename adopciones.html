@@ -9,7 +9,7 @@
     <body>
         <header>
             <div>
-                <h1 style="margin: 0;">Huellitas Comunitarias</h1>
+                <h1 style="margin: 0;">Seccion de Adopcion</h1>
                 <nav class="barra-navegacion">
                     <a href="index.html" border="1" class="boton-nav">Inicio</a>
                     <a href="adopciones.html" class="boton-nav activo">Adopciones</a>
@@ -36,17 +36,96 @@
             
             <section>
                 <article>
-                    <h3>Proyecto PAEC</h3>
-                    <p>El proposito de esta pagina web es concientizar que en las calles hay muchos animales
-                       en situacion de calle, que necesitan un hogar y aun que muchos de ellos estan en refugios,
-                       no todos pueden tener la misma suerte o tarde o temprano por falta de espacio o dinero 
-                       vuelven a la calle, y tu podrias cambiar eso, claro, el adoptar una mascota es tener un ser
-                       vivo bajo tu responsabilidad, pero no es tan dificil, casi siempre solo tienen sus necesidades
-                       basicas, comer, tomar agua y hacer del baño, igual que nosotros, pero tu a cambio tendras un
-                       gran amigo, que te dara momentos divertidos, cariño y compañia, y tu a el, una mascota es
-                       una gran desicion y si recomiendo vivir esa experiencia
+                    <h3>¿Te interesaría algún animalito?</h3>
+                    <p>El propósito de esta página web es concientizar que en las calles hay muchos animales
+                        en situación de calle, que necesitan un hogar y aunque muchos de ellos están en refugios,
+                        no todos pueden tener la misma suerte o tarde o temprano por falta de espacio o dinero
+                        vuelven a la calle, y tú podrías cambiar eso. Claro, adoptar una mascota es tener un ser
+                        vivo bajo tu responsabilidad, pero no es tan difícil: casi siempre solo tienen sus necesidades
+                        básicas —comer, tomar agua y hacer del baño—, igual que nosotros. A cambio tendrás un
+                        gran amigo que te dará momentos divertidos, cariño y compañía.
+                        Una mascota es una gran decisión y sí recomiendo vivir esa experiencia.
                     </p>
-                   
+                </article>
+
+    <!-- 🔽 CATÁLOGO 🔽 -->
+                <article>
+                    <h3>Animalitos en adopción</h3>
+                    <hr>
+                    <p class="nota-catalogo">Adopciones en Tijuana | Entregas personales con seguimiento</p>
+
+                    <div class="productos-grid">
+
+            <!-- 🐶 Animalito 1 -->
+                        <div class="producto-card">
+                            <div class="card-img-wrap">
+                                <img src="img/animales/edith.png" alt="Luna" class="producto-imagen" width="150">
+
+                                <span class="badge ok">Disponible</span>
+                            </div>
+                            <h3 class="producto-titulo">Luna</h3>
+                            <p class="producto-precio">Perro · Mestiza</p>
+                            <p class="producto-descripcion">
+                                2 años · Hembra · Mediano<br>
+                                Muy juguetona y cariñosa. Esterilizada y vacunada.
+                            </p>
+                            <button class="btn-whatsapp" onclick="pedirWhatsApp('Luna', 'Perro')">
+                                Quiero adoptarlo 🐾
+                            </button>
+                        </div>
+
+            <!-- 🐶 Animalito 2 -->
+                        <div class="producto-card">
+                            <div class="card-img-wrap">
+                                <img src="img/animales/tinbon.png" alt="Rocky" class="producto-imagen" width="150">
+                                <span class="badge ok">Disponible</span>
+                            </div>
+                            <h3 class="producto-titulo">Rocky</h3>
+                            <p class="producto-precio">Perro · Labrador</p>
+                            <p class="producto-descripcion">
+                                4 años · Macho · Grande<br>
+                                Tranquilo, obediente y leal. Ideal para casa con patio.
+                            </p>
+                            <button class="btn-whatsapp" onclick="pedirWhatsApp('Rocky', 'Perro')">
+                                Quiero adoptarlo 🐾
+                            </button>
+                        </div>
+
+            <!-- 🐱 Animalito 3 -->
+                        <div class="producto-card">
+                            <div class="card-img-wrap">
+                                <img src="img/animales/kiara.png" alt="Michi" class="producto-imagen" width="150">
+                                <span class="badge ok">Disponible</span>
+                            </div>
+                            <h3 class="producto-titulo">Michi</h3>
+                            <p class="producto-precio">Gato · Criollo</p>
+                            <p class="producto-descripcion">
+                                1 año · Macho · Pequeño<br>
+                                Curioso y limpio, entrenado para arenero. Esterilizado.
+                            </p>
+                            <button class="btn-whatsapp" onclick="pedirWhatsApp('Michi', 'Gato')">
+                                Quiero adoptarlo 🐾
+                            </button>
+                        </div>
+
+            <!-- 🐱 Animalito 4 (ejemplo adoptado) -->
+                        <div class="producto-card">
+                            <div class="card-img-wrap">
+                                <img src="img/animales/stewe.png" alt="Niña" class="producto-imagen" width="150">
+                                <span class="badge no">Adoptado</span>
+                            </div>
+                            <h3 class="producto-titulo">Niña</h3>
+                            <p class="producto-precio">Gato · Criollo</p>
+                            <p class="producto-descripcion">
+                                3 años · Hembra · Pequeño<br>
+                                Ya encontró un hogar. ¡Gracias a su nueva familia! 💖
+                            </p>
+                            <button class="btn-whatsapp deshabilitado" disabled>
+                                Ya fue adoptado
+                            </button>
+                        </div>
+
+                    </div>
                 </article>
             </section>
         </main>
